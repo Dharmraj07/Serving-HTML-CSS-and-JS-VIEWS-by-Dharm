@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<!-- Bootstrap CSS 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0-beta3/css/bootstrap.min.css">
+    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><b>Sharpener</b></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse " id="navbarNav">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Course</a>
+					</li>
+				
+					<li class="nav-item">
+						<a class="nav-link" href="#">Hire with us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact us</a>
+					</li>
+
+				</ul>
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Register Now</a>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+	</nav>
+
+	<!-- Registration Form -->
+	<section class="container my-5">
+		<h2 class="text-center mb-4"><b>Book a  call</b></h2>
+		<form action="/success" method="POST">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="firstName">First Name</label>
+						<input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="lastName">Last Name</label>
+						<input type="text" class="form-control" id="lastName" placeholder="Enter your last name" required>
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="email">Email address</label>
+				<input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+			</div>
+			<div class="form-group">
+				<label for="password">Password</label>
+				<input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+			</div>
+            <br>
+            <div class="form-group">
+			<button type="submit" class="btn btn-primary form-control">GET A CALL</button>
+            </div>
+        </form>
+	</section>
+
+	<!-- Contact Us Section -->
+	<section class="container my-5">
+		<h2 class="text-center mb-4">Contact Us</h2>
+		<div class="row">
+			<div class="col-md-6">
+				<form action="/success" method="POST">
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+					</div>
+					<div class="form-group">
+                        <label for="email">Email address</label>
+						<input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+					</div>
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea class="form-control" id="message" rows="5" required></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+			<div class="col-md-6">
+				<div class="card">
+					<div class="card-body">
+                        
+						<h5 class="card-title">Our Address</h5>
+						<p class="card-text">  No 38/1 Laxmipura , Vaderahalli -Sakalvara Road Anekal,<br>Bengaluru, Karnataka 560083<br>India</p>
+                        <h5 class="card-title">Contact Info</h5>
+						<p class="card-text">Phone: (123) 456-7890<br>Email: admin@sharpener.tech</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
